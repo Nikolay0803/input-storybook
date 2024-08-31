@@ -1,9 +1,11 @@
 import { ReactNode, FC } from "react";
+import { InputAnnotationProps } from "./InputAnnotation";
+
 
 export interface InputGroupProps {
   label: ReactNode;
   input: ReactNode;
-  annotation?: any;
+  annotation?: InputAnnotationProps;
 }
 
 const InputGroup: FC<InputGroupProps> = ({ label, input, annotation }) => {

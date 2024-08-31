@@ -8,9 +8,9 @@ const meta: Meta<typeof InputGroup> = {
   title: "Components/InputGroup",
   component: InputGroup,
   argTypes: {
-    label: { control: "text" }, // Використовуємо 'text' для рядкових значень
-    input: { control: "text" }, // Якщо `input` не потрібно контролювати, використовуйте 'none'
-    annotation: { control: "object" }, // 'object' для складних типів
+    label: { control: "text" },
+    input: { control: "text" },
+    annotation: { control: "object" },
   },
 };
 
